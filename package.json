@@ -1,25 +1,14 @@
 {
-  "name": "project-tracker-backend",
-  "version": "1.0.0",
-  "description": "intended for project tracker backend",
-  "main": "index.js",
+  "name": "projecttracker",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abduljebar49/project-tracker-backend.git"
-  },
-  "author": "Abduljebar Sani",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Abduljebar49/project-tracker-backend/issues"
-  },
-  "homepage": "https://github.com/Abduljebar49/project-tracker-backend#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mysql2": "^3.0.1",
-    "sequelize": "^6.28.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
   }
 }
